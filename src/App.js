@@ -8,32 +8,60 @@ import {
   Code,
   Grid,
   theme,
+  Card,
+  CardHeader,
+  Heading,
+  CardBody,
+  StackDivider,
+  Stack,
+  Image,
+  Center,
+
 } from '@chakra-ui/react';
 import { ColorModeSwitcher } from './ColorModeSwitcher';
 import { Logo } from './Logo';
+import Education from './Education';
+import Work from './Work';
 
 function App() {
   return (
     <ChakraProvider theme={theme}>
       <Box textAlign="center" fontSize="xl">
-        <Grid minH="100vh" p={3}>
-          <ColorModeSwitcher justifySelf="flex-end" />
-          <VStack spacing={8}>
-            <Logo h="40vmin" pointerEvents="none" />
-            <Text>
-              Edit <Code fontSize="xl">src/App.js</Code> and save to reload.
-            </Text>
-            <Link
-              color="teal.500"
-              href="https://chakra-ui.com"
-              fontSize="2xl"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Learn Chakra
-            </Link>
-          </VStack>
-        </Grid>
+        <Card>
+          <CardHeader>
+            <Heading size='lg'>Curriculum Vitae</Heading>
+          </CardHeader>
+
+          <CardBody>
+            <Stack divider={<StackDivider />} spacing='4'>h
+            <Center>
+              <Image
+                borderRadius='full'
+                boxSize='300px'
+                src='meg.jpg'
+                alt='Lars Haukland'
+              />
+            </Center>
+              <Box>
+                <Heading size='md' textTransform='uppercase'>
+                  Education
+                </Heading>
+                <Education />
+              </Box>
+              <Box>
+                <Heading size='md' textTransform='uppercase'>
+                  Work Experience
+                </Heading>
+                <Work />
+              </Box>
+              <Box>
+                <Heading size='md' textTransform='uppercase'>
+                  Experience with
+                </Heading>
+              </Box>
+            </Stack>
+          </CardBody>
+        </Card>
       </Box>
     </ChakraProvider>
   );
