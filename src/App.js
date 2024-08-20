@@ -29,7 +29,7 @@ function App() {
       <Box textAlign="center" fontSize="xl">
         <Card>
           <CardHeader>
-            <Heading size='lg'>Curriculum Vitae</Heading>
+            <Heading size='lg'>CV Lars Haukland</Heading>
           </CardHeader>
 
           <CardBody>

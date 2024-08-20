@@ -42,8 +42,16 @@ function Work() {
             </AccordionButton>
             </h2>
             <AccordionPanel pb={4}>
-            <Text>
-                My part time job at Noroff Accelerate is where I have worked since my second semester at UiB.
+            <Text width='500px'>
+            My part-time job at Noroff Accelerate is one I've held since my second semester at UiB. 
+            Noroff Accelerate focuses on bootcamps for people and companies seeking more experience in specific professional fields, whether in frontend/backend development or computer security.
+                
+            <br />
+            <br />
+            This job has taught me a lot about work environments and the importance of inclusion. 
+            I've learned to take responsibility, not only by serving as an assistant lecturer in a Python course but also by starting as a lecturer in an HTML/CSS course this September. 
+            My tasks have ranged from assembling office desks to lecturing in HTML/CSS. 
+            Over time, I've shifted more toward the teaching side as I've continued to work, and I've really come to appreciate my coworkers, making it an amazing place to work.
                 
             </Text>
             </AccordionPanel>
