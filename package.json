@@ -1,6 +1,7 @@
 {
   "name": "cv",
   "version": "0.1.0",
+  "homepage": "https://haukland.rocks/cv",
   "private": true,
   "dependencies": {
     "@chakra-ui/react": "^2.8.2",
