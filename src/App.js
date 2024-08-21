@@ -59,7 +59,7 @@ function App() {
                 <Heading size='md' textTransform='uppercase'>
                   Experience with
                 </Heading>
-                <Experience />1
+                <Experience />
               </Box>
             </Stack>
           </CardBody>
