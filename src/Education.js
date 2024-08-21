@@ -35,7 +35,7 @@ function Education() {
             <h2>
             <AccordionButton>
                 <Box as='span' flex='1' textAlign='left'>
-                    <Heading size='sm'>UiB: Bachelor in Datateknologi</Heading>
+                    <Heading size='md'>UiB: Bachelor in Datateknologi</Heading>
                     <Heading size='sm'>08.21 - 06.24</Heading>
                 </Box>
                 <AccordionIcon />
@@ -54,7 +54,7 @@ function Education() {
             <h2>
             <AccordionButton>
                 <Box as='span' flex='1' textAlign='left'>
-                <Heading size='sm'>UiB: Masters in Informatics, Algorithms</Heading>
+                <Heading size='md'>UiB: Masters in Informatics, Algorithms</Heading>
                 <Heading size='sm'>08.24 - 06.26</Heading>
                 </Box>
                 <AccordionIcon />

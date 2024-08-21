@@ -22,6 +22,7 @@ import { ColorModeSwitcher } from './ColorModeSwitcher';
 import { Logo } from './Logo';
 import Education from './Education';
 import Work from './Work';
+import Experience from './Experience';
 
 function App() {
   return (
@@ -58,10 +59,12 @@ function App() {
                 <Heading size='md' textTransform='uppercase'>
                   Experience with
                 </Heading>
+                <Experience />1
               </Box>
             </Stack>
           </CardBody>
         </Card>
+        <ColorModeSwitcher aria-label="toggle theme" position="fixed" top={4} left={4} />
       </Box>
     </ChakraProvider>
   );

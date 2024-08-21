@@ -35,14 +35,14 @@ function Work() {
             <h2>
             <AccordionButton>
                 <Box as='span' flex='1' textAlign='left'>
-                    <Heading size='sm'>Success Manager, Noroff Accelerate Bergen</Heading>
+                    <Heading size='md'>Success Manager, Noroff Accelerate Bergen</Heading>
                     <Heading size='sm'>01.22 - ...</Heading>
                 </Box>
                 <AccordionIcon />
             </AccordionButton>
             </h2>
             <AccordionPanel pb={4}>
-            <Text width='500px'>
+            <Text>
             My part-time job at Noroff Accelerate is one I've held since my second semester at UiB. 
             Noroff Accelerate focuses on bootcamps for people and companies seeking more experience in specific professional fields, whether in frontend/backend development or computer security.
                 
@@ -61,16 +61,46 @@ function Work() {
             <h2>
             <AccordionButton>
                 <Box as='span' flex='1' textAlign='left'>
-                <Heading size='sm'></Heading>
-                <Heading size='sm'>08.24 - 06.26</Heading>
+                <Heading size='md'>Backend Summer Intern, Mnemonic</Heading>
+                <Heading size='sm'>06.24 - 08.24</Heading>
                 </Box>
                 <AccordionIcon />
             </AccordionButton>
             </h2>
             <AccordionPanel pb={4}>
             <Text>
-                While doing some algorithm courses within my bachelor I really got the sense for algorithms and the theoretical and practical sides.
-                Since it still is early in the masters I have not decided on what my thesis will be about but I am planning to do something in a theoretical direction.
+                At Mnemonic I had my first intership at it was a great experience. 
+                Mnemonic is a leading company in data security with amazing products.
+                This was my first real experience in the world of software development, and I found it fun but very challenging.
+                I learned to much to write but what I take away is how important it is to read and understand code before one does anything.
+                I learned that when working with large code bases, you spend more time understanding code than actually writing it.
+                <br />
+                <br />
+                I worked with java and with one other summer intern we expanded a REST api. 
+                We worked with alot with design patterns, websockets, database management and setup.
+                What I found most fun but also most challenging was working with large datasets together with a large database and thinking of how can a program run fast and swift.
+            </Text>
+            </AccordionPanel>
+        </AccordionItem>
+
+        <AccordionItem>
+            <h2>
+            <AccordionButton>
+                <Box as='span' flex='1' textAlign='left'>
+                <Heading size='md'>Group leader, UiB</Heading>
+                <Heading size='sm'>08.22 - 06.24</Heading>
+                </Box>
+                <AccordionIcon />
+            </AccordionButton>
+            </h2>
+            <AccordionPanel pb={4}>
+            <Text>
+                I was a group leader for 4 semesters at UiB. A group leader is one who helps out in a course by having group sessions with students 1 or 2 times a week.
+                At group sessions students can ask question or just work on hand ins and ask whenever something is not clear.
+                <br />
+                <br />
+                Being a group leader taught me a lot about how different people think about the same problem.
+                It also made it easier for me to explain programming concepts or ideas to different people of varying experience.
             </Text>
             </AccordionPanel>
         </AccordionItem>
