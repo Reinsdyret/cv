@@ -53,6 +53,9 @@ function Experience() {
             <Avatar name='JS' src='https://cdn.worldvectorlogo.com/logos/javascript-1.svg' />
         </WrapItem>
         <WrapItem>
+            <Avatar name='React' src="https://w7.pngwing.com/pngs/79/518/png-transparent-js-react-js-logo-react-react-native-logos-icon-thumbnail.png" />
+        </WrapItem>
+        <WrapItem>
             <Avatar name='Mvn' src='https://www.svgrepo.com/show/373829/maven.svg' />
         </WrapItem>
         <WrapItem>
@@ -65,7 +68,7 @@ function Experience() {
     </Center>
     <Box>
     <Text>
-        These are the languages, frameworks, build systems etc I have worked with, had in school or just used in a hobby project. Please note that I do not have proffessional proficiency in these tools but I am very willing to learn more about everything!
+        Dette er språk, rammeverk, build systemer og diverse som jeg har brukt i hobbyprosjekter, jobbet med eller brukt i skolesammenheng.
     </Text>
     </Box>
     </Stack>

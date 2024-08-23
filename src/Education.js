@@ -35,17 +35,19 @@ function Education() {
             <h2>
             <AccordionButton>
                 <Box as='span' flex='1' textAlign='left'>
-                    <Heading size='md'>UiB: Bachelor in Datateknologi</Heading>
+                    <Heading size='md'>UiB: Bachelor i Datateknologi</Heading>
                     <Heading size='sm'>08.21 - 06.24</Heading>
                 </Box>
                 <AccordionIcon />
             </AccordionButton>
             </h2>
             <AccordionPanel pb={4}>
-            <Text>
-                In my bachelor i learned the basics of computer science. 
-                Using languages like java, python, haskell and javascript I learned the basics within software development.
-                I took some specialising courses within algorithms which lead me to start my masters.
+            <Text align="left">
+            I bacheloren min gikk vi gjennom det grunnleggende innenfor utvikling.
+            Jeg fikk tatt noen algoritme valgfag og fikk veldig sansen for dette, noe som ledet meg til å begynne på master.
+            Vi brukte språk som java, python, haskell og javascript til å lære teori men og ha prosjekt.
+            Et prosjekt jeg er stolt over er et spill vi lagde som en gruppe på 6.
+            Repo kan bli funnet her: https://git.app.uib.no/javajunkies/shmup
             </Text>
             </AccordionPanel>
         </AccordionItem>
@@ -54,16 +56,16 @@ function Education() {
             <h2>
             <AccordionButton>
                 <Box as='span' flex='1' textAlign='left'>
-                <Heading size='md'>UiB: Masters in Informatics, Algorithms</Heading>
+                <Heading size='md'>UiB: Master i Informatikk, Algoritmer</Heading>
                 <Heading size='sm'>08.24 - 06.26</Heading>
                 </Box>
                 <AccordionIcon />
             </AccordionButton>
             </h2>
             <AccordionPanel pb={4}>
-            <Text>
-                While doing some algorithm courses within my bachelor I really got the sense for algorithms and the theoretical and practical sides.
-                Since it still is early in the masters I have not decided on what my thesis will be about but I am planning to do something in a theoretical direction.
+            <Text align="left">
+                Jeg startet akkurat på master på UiB. Dette er i informatikk, med spesialisering i algoritmer.
+                Jeg vet enda ikke om jeg skal gå en teoretisk vei eller praktisk men gleder med uansett til oppgaven.
             </Text>
             </AccordionPanel>
         </AccordionItem>

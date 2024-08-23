@@ -42,17 +42,19 @@ function Work() {
             </AccordionButton>
             </h2>
             <AccordionPanel pb={4}>
-            <Text>
-            My part-time job at Noroff Accelerate is one I've held since my second semester at UiB. 
-            Noroff Accelerate focuses on bootcamps for people and companies seeking more experience in specific professional fields, whether in frontend/backend development or computer security.
-                
+            <Text align="left">
+            Ved siden av studie har jeg en deltidsjobb hos Noroff Accelerate som jeg har hatt siden mitt andre semester på UiB.
+            Noroff Accelerate har et fokus på kode bootcamps, som for eksempel et 10 ukers kurs i .NET, frontend etc.
+                            
             <br />
             <br />
-            This job has taught me a lot about work environments and the importance of inclusion. 
-            I've learned to take responsibility, not only by serving as an assistant lecturer in a Python course but also by starting as a lecturer in an HTML/CSS course this September. 
-            My tasks have ranged from assembling office desks to lecturing in HTML/CSS. 
-            Over time, I've shifted more toward the teaching side as I've continued to work, and I've really come to appreciate my coworkers, making it an amazing place to work.
-                
+            I Accelerate startet jeg med mye kontorarbeid og noen ganger montere ikea møbler for kontoret.
+            Nå har jeg gått over til å være lærer i bootcampene og har en del mer ansvar.
+            Jeg skal begynne å ha HTML og CSS delen av et frontend kurs som jeg gleder meg veldig til!
+            Jeg har og vært reserve lærer i en python bootcamp.
+
+            Av jobben har jeg lært mye om å jobbe sammen med andre over lengre tid. 
+            Jeg har lært hvor viktig miljø i kontoret og hvordan man bidrar til det.
             </Text>
             </AccordionPanel>
         </AccordionItem>
@@ -68,17 +70,20 @@ function Work() {
             </AccordionButton>
             </h2>
             <AccordionPanel pb={4}>
-            <Text>
-                At Mnemonic I had my first intership at it was a great experience. 
-                Mnemonic is a leading company in data security with amazing products.
-                This was my first real experience in the world of software development, and I found it fun but very challenging.
-                I learned to much to write but what I take away is how important it is to read and understand code before one does anything.
-                I learned that when working with large code bases, you spend more time understanding code than actually writing it.
+            <Text align="left">
+                I mnemonic hadde jeg mitt første intership innenfor utvikling. 
+                Det var en veldig fin erfaring, men også veldig utfordrende.
+                Jeg hadde ikke jobbet veldig mye med store prosjekter med så mye abstraksjon, dette gjorde at jeg lærte utrolig mye.
                 <br />
                 <br />
-                I worked with java and with one other summer intern we expanded a REST api. 
-                We worked with alot with design patterns, websockets, database management and setup.
-                What I found most fun but also most challenging was working with large datasets together with a large database and thinking of how can a program run fast and swift.
+                Vi var to stykker som jobbet sammen på backend for sommeren. Vår jobb var å utvide en rest api ved å sette opp databasen, sette opp importering av ny data, lage endepunkt og sette opp websocket for ny data.
+                I tillegg var det utrolig mye testing!
+                <br />
+                <br />
+                Hva jeg tar med meg av læring fra sommeren er tre hoved temaer. <br />
+                1. Å lese kode og forstå den er det viktigste. Jeg lærte at det er ikke vits i å skrive kode med mindre man skjønner hva som skjer. <br />
+                2. Teste teste teste, tror vi brukte minst halvparten av sommeren på å bare skrive tester. Jeg har lært mye av mocking og hvordan man tenker på edgecases. <br />
+                3. Hvordan å fordele arbeid. Vi innså at vi kunne vært mye mer effektiv om vi hadde hatt mer fokus på å fordele arbeided, lage mindre pull requests og fokusere på kvalitet i stedet for å gjøre det raskt.
             </Text>
             </AccordionPanel>
         </AccordionItem>
@@ -94,13 +99,13 @@ function Work() {
             </AccordionButton>
             </h2>
             <AccordionPanel pb={4}>
-            <Text>
-                I was a group leader for 4 semesters at UiB. A group leader is one who helps out in a course by having group sessions with students 1 or 2 times a week.
-                At group sessions students can ask question or just work on hand ins and ask whenever something is not clear.
-                <br />
-                <br />
-                Being a group leader taught me a lot about how different people think about the same problem.
-                It also made it easier for me to explain programming concepts or ideas to different people of varying experience.
+            <Text align="left">
+                Jeg var en gruppeleder i 4 semester på UiB. En gruppeleder er en som hjelper til i et kurs ved å ha gruppetimer hvor studenter kommer og stiller spørsmål til gruppelederen om kurset. <br />
+                Fagene jeg har vært gruppeleder i er: <br />
+                INF100: Innføring i programmering <br />
+                INF115: Databaser og modellering (2 ganger) <br />
+                INF122: Funksjonell programmering <br /> <br />
+                Å være en gruppeleder har lært meg mye om å forklare konsepter til personer som tenker forskjellig. Og hvordan man kan forklare noe på forskjellige måter for å la alle forstå.
             </Text>
             </AccordionPanel>
         </AccordionItem>

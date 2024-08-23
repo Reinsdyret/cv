@@ -45,19 +45,19 @@ function App() {
             </Center>
               <Box>
                 <Heading size='md' textTransform='uppercase'>
-                  Education
+                  Utdanning
                 </Heading>
                 <Education />
               </Box>
               <Box>
                 <Heading size='md' textTransform='uppercase'>
-                  Work Experience
+                  Erfaring
                 </Heading>
                 <Work />
               </Box>
               <Box>
                 <Heading size='md' textTransform='uppercase'>
-                  Experience with
+                  Brukte språk/verktøy
                 </Heading>
                 <Experience />
               </Box>
